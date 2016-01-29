@@ -1,0 +1,9 @@
+### Windows ###
+Thumbs.db
+
+### OSX ###
+.DS_Store
+
+### Node ###
+/node_modules
+npm-debug.log

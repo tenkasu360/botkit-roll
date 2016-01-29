@@ -1,0 +1,15 @@
+{
+  "env": {
+    "node": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "extends": "ponko2",
+  "rules": {
+    "no-console": 0,
+    "no-process-env": 0,
+    "handle-callback-err": 0,
+    "no-process-exit": 0
+  }
+}
