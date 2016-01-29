@@ -48,5 +48,5 @@ controller.on('slash_command', (bot, message) => {
   const dice = new Dice();
   const roll = dice.execute(message.text);
 
-  bot.replyPublic(message, `<@${message.user}> ${roll.text}`);
+  bot.replyPublic(message, `<@${message.user}> ${roll.text.replace(/The result of /, '').replace(/ is /, ' = ')}`);
 });
